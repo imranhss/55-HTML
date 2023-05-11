@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: beige;
+        }
+
+    #menu{
+    background-color: aquamarine;
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-right: 30px;
+   }
+   #menu ul li{
+    list-style-type: none;
+    float: left;
+    margin: 5px;
+    padding: 3px;
+   }
+   #menu ul li a{
+    text-decoration: none;
+    color: rgb(27, 1, 36);
+   }
+   #menu ul li a:hover{
+    background-color: antiquewhite;
+    transition: 0.10s;
+    text-transform: uppercase;
+   }
+
+   form{
+    margin-left: 60px;
+   }
+   h2{
+    color: rgb(154, 56, 246);
+    background-color: antiquewhite;
+    width: 30%;
+    height: 40px;
+    padding: 5px;
+    margin-top: 5px;
+   }
+   #hobby{
+    margin-left: 30px;
+   }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <ul>
+            <li> <a href="menu new create.html">Home</a> </li>
+            <li> <a href="cv html (1).html">CV</a></li>
+            <li><a href="facebook.html">Facebook</a></li>
+            <li>
+                <a href="#">Registration</a>
+            </li>
+            <li><a href="#">E-mail</a></li>
+        </ul>
+
+    </div>
+
+
+        <br><br>
+    <form>
+        <h2>Student Form:-</h2><br><br>
+        <label for=""><strong>Name: </strong></label>
+        <input type="text" placeholder=" First Name">
+        <input type="text" placeholder=" Surname">
+            <br><br>
+        <label for=""><strong>Father Name:</strong></label>
+        <input type="text" placeholder=" First Name">
+        <input type="text" placeholder=" Surname">
+        <br><br>
+        <label for=""><strong>Mother Name:</strong></label>
+        <input type="text" placeholder=" First Name">
+        <input type="text" placeholder=" Surname">
+        <br><br>
+        <label for=""><strong>Gender:</strong></label>
+        <input type="radio" name="Gender"><label for="">Male</label>
+        <input type="radio" name="Gender"><label for="">Female</label>
+        <input type="radio" name="Gender"><label for="">Others</label>
+        <br><br>
+        <label for=""><strong>Road No:</strong></label>
+        <input type="number" placeholder=" number">
+        <br><br>
+        <label for=""><strong>House No:</strong></label>
+        <input type="number" placeholder=" number">
+        <br><br>
+        <label for=""><strong>Post office:</strong></label>
+        <input type="#" placeholder=" Post office ">
+        <br><br>
+        <label for=""><strong>Police Station:</strong></label>
+        <input type="#" placeholder=" Police Station">
+        <br><br>
+        <label for=""><strong>District:</strong></label>
+        <input type="#" placeholder=" District">
+        <br><br>
+
+        <label for=""><strong>Division:</strong></label>
+        <input type="#" placeholder=" Division">
+        <br><br>
+        <label for=""> <strong>Subject:</strong></label>
+        <select>
+            <option>JEE</option>
+            <option>PHP</option>
+            <option>C#</option>
+            <option>Databased</option>
+        </select>
+        <br><br>
+        
+        <label><strong>Hobby:</strong></label><br><br>
+        <div id="hobby">
+            <input type="checkbox"><label>Traveling</label>
+            <input type="checkbox"><label>Reading</label><br><br>
+            <input type="checkbox"><label>Outing</label>
+            <input type="checkbox"><label>Gerdening</label>
+        </div>
+            <br><br>
+            <label for=""><strong>Discription:</strong></label><br>
+        <textarea name="About yourself" id="" cols="30" rows="10"></textarea>
+        <br><br>
+        
+        <input type="Submit" value="Submit">
+
+    </form>
+    
+</body>
+</html>
