@@ -1,23 +1,43 @@
-/* tr:nth-child(even){
-    background-color: coral;   
+nav {
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+#main ul{
+    position: absolute;
+    display: none;
+}
+#main li {
+    display: block;
+    position: relative;
+    float: left;
+    background: #c2eebd;  
+    margin: 5px; 
+
 }
 
-tr:nth-child(odd){
-    background-color: aqua;   
-} */
-
-
-/* 
-#first{
-    background-color: coral;
+#main li a {
+    text-decoration: none;
+    display: block;
     color: white;
 }
 
-#second{
-    color: cyan;
+#main li a:hover {
+    background-color: bisque;
 }
 
-.third{
-    background-color: cornsilk;
-    color: white;
-} */
+#main li:hover {
+    background-color: #c2eebd;
+}
+
+#main li:hover ul {
+
+    float: none;
+    display: block;
+}
+
+#main li:hover ul li {
+    float: none;
+}
